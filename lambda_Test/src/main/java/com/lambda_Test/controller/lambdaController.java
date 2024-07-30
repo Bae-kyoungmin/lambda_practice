@@ -146,7 +146,7 @@ public class lambdaController {
 		};
 		
 		String result = test.apply("test", "입니다");
-		System.out.println("test ====> " + result);
+		System.out.println("test1 ====> " + result);
 	}
 	
 	@GetMapping("unaryOperatorTest")
